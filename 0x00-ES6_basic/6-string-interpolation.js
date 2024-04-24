@@ -13,4 +13,3 @@ export default function getSanFranciscoDescription() {
     + `capita of ${budget.capita}.`
   );
 }
-  
