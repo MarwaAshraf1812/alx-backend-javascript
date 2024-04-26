@@ -1,4 +1,4 @@
-import Currency from './3-currency';
+export default import Currency from './3-currency';
 
 class Pricing {
   constructor(amount, currency) {
@@ -55,5 +55,3 @@ class Pricing {
     return amount * conversionRate;
   }
 }
-
-export default Pricing;
