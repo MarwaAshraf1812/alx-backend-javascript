@@ -9,7 +9,7 @@ export default class SkyHighBuilding extends Building {
   get floors() {
     return this._floors;
   }
-  
+
   /**
    * @param {Number} floors
    */
@@ -21,7 +21,7 @@ export default class SkyHighBuilding extends Building {
     this._floors = floors;
   }
 
-  evacuationWarningMessage () {
+  evacuationWarningMessage() {
     return `Evacuate slowly the ${this.floors} floors`;
   }
 }
