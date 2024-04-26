@@ -5,6 +5,10 @@ class HolbertonCourse {
     this.students = students;
   }
 
+  get name() {
+    return this._name;
+  }
+
   /**
   * @param {String} name
   */
@@ -12,11 +16,12 @@ class HolbertonCourse {
     if (typeof name !== 'string') {
     throw new TypeError('Name must be a string');
     }
+
     this._name = name;
   }
 
-  get name() {
-    return this._name;
+  get length() {
+    return this._length;
   }
 
   /**
@@ -26,11 +31,12 @@ class HolbertonCourse {
     if (typeof length !== 'number') {
       throw new TypeError('Length must be a number');
     }
+
     this._length = length;
   }
 
-  get length() {
-    return this._length;
+  get students() {
+    return this._students;
   }
 
   /**
@@ -42,10 +48,6 @@ class HolbertonCourse {
     } else {
       throw new TypeError('Students must be an Array');
     }
-  }
-
-  get students() {
-    return this._students;
   }
 }
 
