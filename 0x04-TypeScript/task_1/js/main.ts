@@ -7,11 +7,11 @@ export interface Teacher {
   [propName: string]: any;
 }
 
-const teacher: Teacher = {
+const teacher3: Teacher = {
   firstName: 'John',
   lastName: 'Doe',
   fullTimeEmployee: true,
   location: 'USA'
 };
 
-console.log(teacher);
+console.log(teacher3);
